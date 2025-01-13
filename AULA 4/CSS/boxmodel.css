@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 50%;
+    min-height: 500px;
+    background-color: #4be658;
+    margin-bottom: 10px;
+    border:3px solid #004cff;
+    padding: 100px; 
+    box-sizing: border-box;
+}
+img{
+    width: 80%;
+}

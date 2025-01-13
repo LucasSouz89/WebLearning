@@ -1,0 +1,16 @@
+.header{
+    margin: 30px auto;
+    font-family: calibri;
+    width: 600px;
+    background: #8e2496;
+    padding: 10px;
+    color: #2a0404;
+ }
+ h1{
+    background: #E90052;
+    padding: 20px 10px;
+    font-size: 35px;
+ }
+ p{
+    text-align: justify;
+ }

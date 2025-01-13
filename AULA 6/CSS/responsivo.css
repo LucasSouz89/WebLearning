@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    border: 1px solid gray;
+    margin: 10px auto;
+    padding: 2rem;
+}
+
+.box{
+    width: 100%;
+}
+.box img{
+    width: 100%;
+}
+
+@media(max-width:850px){
+    body{
+        background-color: brown;
+    }
+
+}
+
+@media(max-width:550px){
+    body{
+    background-color: blue;
+    }
+}

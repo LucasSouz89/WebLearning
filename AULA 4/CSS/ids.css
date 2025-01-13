@@ -1,0 +1,15 @@
+#container {
+    width:300px;
+    height: 200px;
+    background-color: #dc143c;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #ffffff; }
+#box1 {
+    width:200px;
+    height: 80px;
+    background-color: #11a4be;}
+#box2 {
+    width:150px;
+    height: 80px;
+    background-color: 238d0e;}

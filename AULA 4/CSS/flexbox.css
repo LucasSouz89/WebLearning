@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    height: 500px;
+   
+    margin: 20px auto;
+    min-height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+h1{
+    margin: 0px 50%;
+}
+.caixa{
+    width: 200px;
+    border: black 1px solid;
+    height: 300px;
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+    border: 1px red solid;
+}
+
+.text{
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.link{
+    text-decoration: none;
+    color: bisque;
+    background-color: rgb(0, 0, 0);
+    border: 2px #ccc solid;
+    padding: 3px;
+    border-radius: 80px;
+}
+
+.link:hover{
+    background-color: transparent;
+}

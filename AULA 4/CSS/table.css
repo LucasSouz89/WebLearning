@@ -1,0 +1,24 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+}
+tr th, tr td{
+    width: 25%;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    height: 30px;
+}
+
+tr th, tfoot{
+    background-color: black;
+    color: white;
+}
+tbody tr:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+html{
+    font-size: 16px;
+}
+body{
+    height: 100vh;
+    background-color: aliceblue;
+    width: 100vw;
+
+}
+.container{
+    min-height: 20vh;
+    background-color: red;
+    width: 70vw;
+}
+
+.box{
+    font-size: 20px; 
+}
+.box p{
+    font-size: 1rem;
+}
+.box h2{
+    font-size: 3rem;
+}
