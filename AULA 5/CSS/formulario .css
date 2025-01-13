@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+background-color: gray;}
+
+.container{
+    width: 50%;
+    min-height: 65vh;
+    background-color: brown;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:row;
+    font-size: 15px;
+    height: 10vh;
+    border-radius: 7px 7px 0px 0px;
+}
+div{
+    margin-bottom: 20px;
+}
+form{
+    padding: 20px;
+}
+form input[type="text"],
+
+form input[type="email"],
+
+form input[type="number"],
+
+form textarea{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    padding-left:40px ;
+    font-size: 18px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px 20px;
+    border-radius: 10px;
+}
+#nome{ 
+    background-image: url(../IMAGES/rosto.png);
+}
+
+#email{
+    background-image: url(/AULA5/IMAGES/email.png);
+}
+#celular{
+    background-image: url(/AULA5/IMAGES/telephone.png);
+}
+#nome:focus{ 
+    background-image: url(../IMAGES/rosto.png);
+}
+
+#email:focus{
+    background-image: url(/AULA5/IMAGES/email2.png);
+}
+#celular:focus{
+    background-image: url(/AULA5/IMAGES/telephone2.png);
+}
+
+form textarea{
+    padding-left: 20px;
+    height: 200px;
+    resize: none;
+}
+form input[type="submit"]{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid black;
+    border-color: black;
+    cursor: pointer;
+}
+form input[type="submit"]:hover{
+    background-color: transparent;
+    color: black;
+    transition: 5s;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
